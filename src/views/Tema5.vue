@@ -344,7 +344,7 @@
       .col.col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/sdHDf9hFABw?si=5drasZJfF7DWfbKv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/3bbIQeEBAgE?si=GAlKlELXvPG3yR68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.4 Parámetros de entrada y salida en los módulos
