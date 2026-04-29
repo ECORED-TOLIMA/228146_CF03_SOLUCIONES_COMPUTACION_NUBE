@@ -278,7 +278,7 @@
     p.mb-4(data-aos="fade-down") A continuación, se presenta un análisis sobre los errores más comunes que pueden surgir durante el diseño y desarrollo de algoritmos. Comprender sus causas y consecuencias resulta fundamental para mejorar la lógica de programación y la calidad del <em>software</em>. Asimismo, se proponen estrategias prácticas que contribuyen a prevenir fallos, optimizar el proceso de desarrollo y garantizar resultados correctos y confiables:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.col-12
-        PasosA.color-acento-contenido(tipo="n")
+        PasosA.color-primario(tipo="n")
           .row.justify-content-center
             .col-lg-6.order-lg-1.order-2(data-aos="fade-down")
               h4 Causas frecuentes de errores en algoritmos
@@ -298,14 +298,14 @@
                 li.mb-0
                   i.lista-ul__vineta
                   p.mb-0 Mala estructuración del flujo lógico.
-            .col-lg-5.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-up")
+            .col-lg-5.col-12.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-up")
               img(src='@/assets/curso/tema5/img15.jpg', alt="Imagen decorativa")          
           .row.justify-content-center
-            .col-lg-5.col-6.mb-lg-0.mb-4(data-aos="fade-up")
+            .col-lg-5.col-12.mb-lg-0.mb-4(data-aos="fade-up")
               img(src='@/assets/curso/tema5/img16.jpg', alt="Imagen decorativa")          
             .col-lg-6(data-aos="fade-down")
               h4.text-start Consecuencias de los errores
-              ul.lista-ul.mb-0
+              ul.lista-ul.mb-0.text-start
                 li.mb-0
                   i.lista-ul__vineta
                   p.mb-0 Resultados incorrectos.
@@ -337,7 +337,7 @@
                 li.mb-0
                   i.lista-ul__vineta
                   p.mb-0 Revisar paso a paso el algoritmo.
-            .col-lg-5.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-up")
+            .col-lg-5.col-12.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-up")
               img(src='@/assets/curso/tema5/img17.jpg', alt="Imagen decorativa")
     p.mb-4(data-aos="fade-down") Para comprender de mejor manera el funcionamiento del algoritmo y la identificación de errores lógicos, se presenta el siguiente video, en el cual se explica paso a paso un ejemplo práctico donde se evidencia cómo una operación incorrecta dentro del proceso afecta el resultado final del programa:
     .row.justify-content-center.align-items-center.mb-0

@@ -252,23 +252,23 @@
           li
             .lista-ol--cuadro__vineta
               span.text-bold 1
-            | <b>Tipo entero</b>: se utiliza cuando no se requieren decimales, facilitando cálculos simples y conteos.
+            p.mb-0 <b>Tipo entero</b>: se utiliza cuando no se requieren decimales, facilitando cálculos simples y conteos.
           li
             .lista-ol--cuadro__vineta
               span.text-bold 2
-            | <b>Tipo real</b>: permite mayor precisión en cálculos matemáticos, especialmente en operaciones científicas o financieras.
+            p.mb-0 <b>Tipo real</b>: permite mayor precisión en cálculos matemáticos, especialmente en operaciones científicas o financieras.
           li
             .lista-ol--cuadro__vineta
               span.text-bold 3
-            | <b>Tipo booleano</b>: es fundamental en estructuras condicionales, ya que permite evaluar condiciones lógicas.
+            p.mb-0 <b>Tipo booleano</b>: es fundamental en estructuras condicionales, ya que permite evaluar condiciones lógicas.
           li
             .lista-ol--cuadro__vineta
               span.text-bold 4
-            | <b>Tipo carácter</b>: se utiliza para representar símbolos individuales dentro del programa.
+            p.mb-0 <b>Tipo carácter</b>: se utiliza para representar símbolos individuales dentro del programa.
           li
             .lista-ol--cuadro__vineta
               span.text-bold 5
-            | <b>Tipo cadena</b>: permite manejar textos completos, facilitando la interacción con el usuario.
+            p.mb-0 <b>Tipo cadena</b>: permite manejar textos completos, facilitando la interacción con el usuario.
       .col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure.mb-0
           img(src='@/assets/curso/tema3/img19.jpg', alt='Imagen decorativa')

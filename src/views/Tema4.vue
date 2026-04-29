@@ -54,6 +54,7 @@
             .p-4
               h4 Estructuras de datos
               p.mb-0 Facilitan el almacenamiento y la organización de múltiples valores, como los vectores y las matrices, permitiendo un acceso ordenado y eficiente a la información.
+              br
     .row.justify-content-center.align-items-center.mb-0
       .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
