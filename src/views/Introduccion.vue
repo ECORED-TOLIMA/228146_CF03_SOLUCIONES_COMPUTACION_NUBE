@@ -15,7 +15,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0(data-aos="fade-down") Posteriormente, aborda metodologías para el diseño de algoritmos, promoviendo el uso de herramientas como el seudocódigo y los diagramas de flujo, que facilitan la representación clara y ordenada de soluciones. Se integran también herramientas tecnológicas para la creación, validación y prueba de algoritmos, fortaleciendo la capacidad de abstracción y modelado.
     .row.justify-content-center.mb-4
-      .col.col-lg-auto.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-auto.col-8.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/intro/img02.svg', alt='Imagen decorativa')
       .col.col-lg-9.col-12.order-lg-2.order-2

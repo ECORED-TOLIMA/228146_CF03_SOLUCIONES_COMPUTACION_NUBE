@@ -20,9 +20,9 @@
         figure
           img(src='@/assets/curso/tema4/img01.jpg', alt='Imagen decorativa')
     .row.justify-content-center.mb-4
-      .col.col-lg-10.col-12
+      .col.col-12
         p.mb-4(data-aos="fade-down") A continuación, se presentan las principales estructuras utilizadas en la programación y sus componentes esenciales:
-        .row.justify-content-center.mb-4(data-aos="flip-up")
+        .row.justify-content-center.mb-0(data-aos="flip-up")
           .col.col-12
             .titulo-sexto.color-acento-contenido
               h5 Figura 3.
@@ -36,7 +36,7 @@
               img(src='@/assets/curso/tema4/img04.svg', alt='Figura 3 que presenta un esquema de las estructuras de programación, donde se distinguen las estructuras de control, incluyendo la estructura secuencial, las estructuras condicionales y las estructuras de iteración y las estructuras de datos, representadas por vectores y matrices, mostrando de forma jerárquica la organización básica de los programas.')
     p.mb-4(data-aos="fade-down") Las estructuras de programación se organizan en dos grandes grupos:
     .row.justify-content-center.mb-4
-      .col.col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+      .col.col-lg-6.col-12.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             .col-lg-12(data-aos="flip-up")
@@ -45,7 +45,7 @@
             .p-4
               h4 Estructuras de control
               p.mb-0 Comprenden la ejecución secuencial de instrucciones, las estructuras condicionales para la toma de decisiones según condiciones específicas y las estructuras repetitivas que permiten ejecutar procesos de forma iterativa.
-      .col.col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+      .col.col-lg-6.col-12.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             .col-lg-12(data-aos="flip-up")
@@ -56,7 +56,7 @@
               p.mb-0 Facilitan el almacenamiento y la organización de múltiples valores, como los vectores y las matrices, permitiendo un acceso ordenado y eficiente a la información.
               br
     .row.justify-content-center.align-items-center.mb-0
-      .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-auto.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema4/img07.svg', alt='Imagen decorativa')
       .col.col-lg-9.col-12.order-lg-2.order-2
@@ -102,14 +102,14 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.2 Estructuras condicionales
     .row.justify-content-center.mb-4
-      .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema4/img12.jpg', alt='Imagen decorativa')
-      .col.col-lg-7.col-12.order-lg-2.order-2
-        p.mb-4(data-aos="fade-down") Estas estructuras hacen posible que un algoritmo tome decisiones durante su ejecución mediante la evaluación de condiciones específicas, determinando así las acciones que deben realizarse. Aportan flexibilidad al programa, ya que el flujo de ejecución puede modificarse según se cumplan o no ciertas condiciones lógicas, adaptando el comportamiento del algoritmo a distintos escenarios y necesidades del problema.
-        .cajon.cajon.C01.color-primario.p-4.mb-4
+      .col.col-lg-8.col-12.order-lg-2.order-2
+        p.mb-2(data-aos="fade-down") Estas estructuras hacen posible que un algoritmo tome decisiones durante su ejecución mediante la evaluación de condiciones específicas, determinando así las acciones que deben realizarse. Aportan flexibilidad al programa, ya que el flujo de ejecución puede modificarse según se cumplan o no ciertas condiciones lógicas, adaptando el comportamiento del algoritmo a distintos escenarios y necesidades del problema.
+        .cajon.cajon.C01.color-primario.px-4.py-5.mb-0
           p.mb-0(data-aos="fade-down") Su utilización es fundamental cuando una solución requiere analizar diferentes escenarios y ejecutar instrucciones distintas en función de los resultados obtenidos. De esta manera, se logra que el algoritmo responda de forma dinámica a los datos de entrada y a las situaciones planteadas.
-        p.mb-0(data-aos="fade-down") Así como las secuenciales, estas estructuras también tienen actividades principales:
+    p.mb-4(data-aos="fade-down") Así como las secuenciales, estas estructuras también tienen actividades principales:
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-12.col-lg.mb-4.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
@@ -210,14 +210,14 @@
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.4 Estructuras de datos básicas: vectores y matrices
     .row.justify-content-center.mb-4
-      .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema4/img18.jpg', alt='Imagen decorativa')
-      .col.col-lg-7.col-12.order-lg-2.order-2
-        p.mb-4(data-aos="fade-down") Permiten organizar y almacenar información de manera estructurada dentro de un programa, facilitando su acceso, manipulación y procesamiento. Su uso es fundamental cuando se requiere trabajar con múltiples datos relacionados, optimizando la gestión de la información y mejorando la eficiencia de los algoritmos.
-        .cajon.cajon.C02.color-secundario.p-4.mb-4
+      .col.col-lg-8.col-12.order-lg-2.order-2
+        p.mb-2(data-aos="fade-down") Permiten organizar y almacenar información de manera estructurada dentro de un programa, facilitando su acceso, manipulación y procesamiento. Su uso es fundamental cuando se requiere trabajar con múltiples datos relacionados, optimizando la gestión de la información y mejorando la eficiencia de los algoritmos.
+        .cajon.cajon.C02.color-secundario.px-4.py-5.mb-0
           p.mb-0(data-aos="fade-down") Estas estructuras permiten representar conjuntos de datos de forma ordenada, lo que facilita la realización de operaciones como recorridos, búsquedas y cálculos. Su correcta implementación contribuye a desarrollar soluciones más organizadas, escalables y adaptables a diferentes contextos.
-        p.mb-0(data-aos="fade-down") Sus actividades principales son:
+    p.mb-4(data-aos="fade-down") Sus actividades principales son:
     .tarjeta.tarjeta--BG02.p-md-5.p-4.mb-0(data-aos="flip-down")
       .tarjeta.tarjeta--blanca.p-4.p-md-5
         PasosB.color-acento-botones 

@@ -27,7 +27,7 @@
     p(data-aos="fade-down") Las metodologías de análisis y diseño de algoritmos establecen un marco estructurado para abordar la solución de problemas de manera lógica, organizada y eficiente. Estas metodologías orientan al usuario desde la comprensión inicial del problema hasta la construcción de una solución formal, asegurando coherencia entre los requerimientos planteados y el resultado obtenido.
     p.mb-4(data-aos="fade-down") Desde esta perspectiva:
     .row.justify-content-center.mb-4
-      .col.col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+      .col.col-lg-6.col-12.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             .col-lg-12(data-aos="flip-up")
@@ -35,7 +35,7 @@
           .tarjeta.tarjeta--C04.px-5.py-3
             .p-4
               p.mb-0 El análisis se enfoca en identificar los elementos esenciales del problema, tales como datos de entrada, procesos y resultados esperados.
-      .col.col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+      .col.col-lg-6.col-12.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             .col-lg-12(data-aos="flip-up")
@@ -45,14 +45,14 @@
               p.mb-0 Mientras que el diseño permite definir la secuencia de pasos que darán forma al algoritmo.
               br
     .row.justify-content-center.align-items-center.mb-4
-      .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-auto.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema2/img05.svg', alt='Imagen decorativa')
       .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.C03.px-4.py-3
           p.mb-0(data-aos="fade-down") Este enfoque facilita la planificación de soluciones antes de su implementación, reduciendo errores y mejorando la calidad del resultado.
     .row.justify-content-center.mb-4
-      .col.col-lg-10.col-12
+      .col.col-12
         p.mb-0(data-aos="fade-down") A continuación, se presentan algunas metodologías clave utilizadas en el análisis y diseño de algoritmos:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
@@ -204,17 +204,17 @@
       .col.col-lg-10.col-12
         p.mb-0(data-aos="fade-down") Para una mejor comprensión, se relaciona la estructura de un diagrama de flujo con los elementos mencionados:
     .row.justify-content-center.mb-4(data-aos="flip-up")
-      .col-lg-10.col-12
+      .col-lg-12.col-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
           span Símbolos en diagramas de flujo
       .row.justify-content-center
-        .col-10
+        .col-12
           figure.desktop
-            img(src='@/assets/curso/tema2/img17.svg', alt='Figura 1 que presenta un diagrama de flujo con los símbolos estandarizados utilizados en el diseño de algoritmos, incluyendo inicio y fin, procesos, entrada y salida de datos, decisiones, líneas de flujo y conectores, organizados de manera secuencial para ilustrar visualmente el recorrido lógico y la toma de decisiones dentro de un procedimiento.')
+            img(src='@/assets/curso/tema2/img17.svg', alt='Figura 1 que presenta un diagrama de flujo con los símbolos estandarizados utilizados en el diseño de algoritmos, incluyendo el símbolo terminal (inicio y fin), procesos, entrada y salida de datos, decisiones, líneas de flujo y conectores, organizados de manera secuencial para ilustrar el recorrido lógico y la toma de decisiones dentro de un procedimiento.')
       .col-12
         figure.movil
-          img(src='@/assets/curso/tema2/img18.svg', alt='Figura 1 que presenta un diagrama de flujo con los símbolos estandarizados utilizados en el diseño de algoritmos, incluyendo inicio y fin, procesos, entrada y salida de datos, decisiones, líneas de flujo y conectores, organizados de manera secuencial para ilustrar visualmente el recorrido lógico y la toma de decisiones dentro de un procedimiento.')
+          img(src='@/assets/curso/tema2/img18.svg', alt='Figura 1 que presenta un diagrama de flujo con los símbolos estandarizados utilizados en el diseño de algoritmos, incluyendo el símbolo terminal (inicio y fin), procesos, entrada y salida de datos, decisiones, líneas de flujo y conectores, organizados de manera secuencial para ilustrar el recorrido lógico y la toma de decisiones dentro de un procedimiento.')
     .row.justify-content-center.align-items-center.mb-0
       .col.col-lg-10.col-12
         .cajon.cajon.C03.px-4.py-3
@@ -223,14 +223,14 @@
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.4 Herramientas para la creación y prueba de algoritmos
     .row.justify-content-center.mb-4
-      .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema2/img19.jpg', alt='Imagen decorativa')
-      .col.col-lg-8.col-12.order-lg-2.order-2
+      .col.col-lg-9.col-12.order-lg-2.order-2
         p.mb-4(data-aos="fade-down") Las herramientas para la creación y prueba de algoritmos constituyen un apoyo fundamental en el proceso de diseño, validación y optimización de soluciones lógicas. Estas permiten transformar ideas en representaciones estructuradas, facilitando la verificación del funcionamiento del algoritmo antes de su implementación en un lenguaje de programación.
-        .cajon.cajon.C01.color-primario.p-4.mb-4
+        .cajon.cajon.C01.color-primario.px-4.py-3.mb-0
           p.mb-0(data-aos="fade-down") Su utilización no solo contribuye a mejorar la claridad y organización de los algoritmos, sino que también permite identificar errores, evaluar la lógica planteada y asegurar que los resultados obtenidos sean coherentes con los objetivos definidos. De esta manera, se fortalece el proceso de desarrollo, reduciendo fallos y mejorando la calidad de las soluciones.
-        p.mb-0(data-aos="fade-down") Entre las principales herramientas utilizadas en la creación y prueba de algoritmos se encuentran:
+    p.mb-4(data-aos="fade-down") Entre las principales herramientas utilizadas en la creación y prueba de algoritmos se encuentran:
     AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--C03" data-aos="zoom-in")
       .row.justify-content-center(titulo="Herramientas de diseño")
         .col-12.col-lg-6.order-lg-1.order-2
@@ -244,7 +244,7 @@
             li.mb-0
               i.lista-ul__vineta
               p Entornos de modelado: apoyan la organización y visualización de la lógica del algoritmo antes de su implementación.
-        .col-12.col-lg-6.order-lg-2.order-1
+        .col-12.col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/tema2/img20.jpg', alt='Imagen decorativa')
       .row.justify-content-center(titulo="Herramientas de prueba")
@@ -259,7 +259,7 @@
             li.mb-0
               i.lista-ul__vineta
               p Herramientas de depuración básica: permiten identificar errores en la secuencia lógica o en el manejo de datos.
-        .col-12.col-lg-6.order-lg-2.order-1
+        .col-12.col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/tema2/img21.jpg', alt='Imagen decorativa')
       .row.justify-content-center(titulo="Herramientas de apoyo")
@@ -271,7 +271,7 @@
             li.mb-0
               i.lista-ul__vineta
               p Lenguajes de programación básicos: permiten implementar y validar algoritmos en entornos reales.
-        .col-12.col-lg-6.order-lg-2.order-1
+        .col-12.col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/tema2/img22.jpg', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-0

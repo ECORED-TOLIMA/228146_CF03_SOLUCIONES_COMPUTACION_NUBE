@@ -7,19 +7,19 @@
         span 3
       h1 Elementos básicos de la programación
     .row.justify-content-center.mb-4
-      .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema3/img01.svg', alt='Imagen decorativa')
-      .col.col-lg-8.col-12.order-lg-2.order-2
-        .cajon.cajon.C01.color-primario.p-4.mb-4
+      .col.col-lg-9.col-12.order-lg-2.order-2
+        .cajon.cajon.C01.color-primario.px-4.py-3.mb-4
           p.mb-0(data-aos="fade-down") Los elementos básicos de la programación constituyen el conjunto de fundamentos que permiten estructurar soluciones de manera lógica, organizada y funcional dentro del desarrollo de <em>software</em>. Estos elementos proporcionan las bases necesarias para la construcción de algoritmos implementables en un lenguaje de programación, garantizando claridad, precisión y control en el manejo de la información.
-        .row.mb-4
+        .row.mb-0
           .col-lg-auto.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema3/img02.svg', alt='Imagen decorativa')
           .col-lg-10.col-12
             p.mb-0 Su adecuada comprensión es esencial para establecer instrucciones correctas, manipular datos y definir comportamientos dentro de un programa. Estos componentes no solo permiten escribir código, sino también comprender cómo se procesan los datos y cómo se ejecutan las operaciones en un entorno computacional.
-        p.mb-0(data-aos="fade-down") Entre los elementos fundamentales de la programación se encuentran:
+    p.mb-4(data-aos="fade-down") Entre los elementos fundamentales de la programación se encuentran:
     .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
       SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
         .tarjeta.tarjeta--C02.p-4
@@ -59,7 +59,7 @@
           h4.text-center Jerarquía de operadores
           p Define el orden en el que se ejecutan las operaciones dentro de una expresión.
     .row.justify-content-center.align-items-center.mb-0
-      .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-auto.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema3/img09.svg', alt='Imagen decorativa')
       .col.col-lg-9.col-12.order-lg-2.order-2
@@ -87,7 +87,7 @@
             h4.text-center Palabras reservadas
             p.mb-0(data-aos="fade-down") Son términos propios del lenguaje de programación que poseen un significado predefinido y no pueden emplearse como identificadores. Cumplen funciones específicas dentro de la estructura del programa, como definir tipos de datos, controlar el flujo de ejecución o declarar estructuras. Su correcta aplicación permite que el programa sea interpretado correctamente por el compilador o intérprete y garantiza la coherencia lógica del código.
     .row.justify-content-center.mb-4
-      .col.col-lg-10.col-12
+      .col.col-12
         p.mb-0(data-aos="fade-down") Para garantizar un uso adecuado, es importante tener en cuenta las siguientes consideraciones:
     .row.BG01.justify-content-center.align-items-center.px-3.mb-4(data-aos="flip-up")
       .col-lg-5.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
@@ -173,22 +173,22 @@
       h2 3.3 Tipos de datos (enteros, reales, booleanos)
     p.mb-4(data-aos="fade-down") Los tipos de datos constituyen un elemento fundamental en la programación, ya que permiten definir la naturaleza de la información que será almacenada, procesada y manipulada dentro de un algoritmo o programa. Su correcta selección garantiza coherencia en las operaciones, evita errores y optimiza el uso de los recursos del sistema.
     .row.justify-content-center.mb-4
-      .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
+      .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema3/img16.jpg', alt='Imagen decorativa')
-      .col.col-lg-5.col-12.order-lg-1.order-2
+      .col.col-lg-8.col-12.order-lg-1.order-2
         .cajon.cajon.C02.color-secundario.p-4.mb-4
           p.mb-0(data-aos="fade-down") En términos generales, los tipos de datos determinan qué tipo de valores puede contener una variable y qué operaciones pueden realizarse sobre ella. Esto permite que el programa interprete correctamente la información y ejecute las instrucciones de manera adecuada.
         p.mb-0(data-aos="fade-down") A diferencia de otros elementos de la programación, los tipos de datos no solo organizan la información, sino que también influyen directamente en el comportamiento del algoritmo, especialmente en operaciones matemáticas, comparaciones y toma de decisiones.
     .row.justify-content-center.mb-4
-      .col.col-12.col-lg-10
+      .col.col-12.col-lg-12
         .row.align-items-center.mb-4(data-aos="flip-down")
           .col-auto.pe-0(style="z-index:2")
             figure
               img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo01(style="z-index:1")
             .p-2
-              h3.mb-0.ms-1 Clasificación de los tipos de datos básicos
+              h3.mb-0.ms-2 Clasificación de los tipos de datos básicos
         p.mb-4(data-aos="fade-down") A continuación, se presentan los tipos de datos más utilizados en la programación:
         .row.justify-content-center.mb-4(data-aos="flip-up")
           .col.col-12
@@ -246,7 +246,7 @@
                   img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
               .col-lg-auto.col-9.titulo01(style="z-index:1")
                 .p-2
-                  h3.mb-0.ms-1 Características de los tipos de datos
+                  h3.mb-0.ms-lg-1.ms-3 Características de los tipos de datos
         p.mb-4(data-aos="fade-down") Cada tipo de dato posee características específicas que determinan su uso dentro de un algoritmo:
         ol.lista-ol--cuadro.lista-ol--separador.mb-0
           li
@@ -273,7 +273,7 @@
         figure.mb-0
           img(src='@/assets/curso/tema3/img19.jpg', alt='Imagen decorativa')
     .row.justify-content-center.align-items-strench.mb-4
-      .col-lg-6.col-12.order-lg-1.order-2
+      .col-lg-8.col-12.order-lg-1.order-2
         .row.justify-content-center.mb-4
           .col.col-12
             .row.align-items-center(data-aos="flip-down")
@@ -282,7 +282,7 @@
                   img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
               .col-lg-auto.col-9.titulo01(style="z-index:1")
                 .p-2
-                  h3.mb-0.ms-1 Importancia del uso adecuado de tipos de datos
+                  h3.mb-0.ms-lg-1.ms-3 Importancia del uso adecuado de tipos de datos
         p.mb-4(data-aos="fade-down") El uso correcto de los tipos de datos permite:
         ul.lista-ul--color.mt-4(data-aos="fade-down")
           li
@@ -318,7 +318,7 @@
         p Los operadores son símbolos que permiten efectuar cálculos, comparaciones y evaluaciones lógicas, facilitando la manipulación de la información dentro de un programa. Por su parte, la jerarquía de operadores establece el orden de prioridad en la ejecución de dichas operaciones, determinando cómo se resuelven las expresiones cuando intervienen múltiples operadores.
     p.mb-4(data-aos="fade-down") La siguiente es una explicación puntual de tipos de operadores:
     .row.justify-content-center.mb-4
-      .col.col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+      .col.col-lg-6.col-12.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             .col-lg-12(data-aos="flip-up")
@@ -327,7 +327,7 @@
             .p-4
               h4 Operadores aritméticos
               p.mb-0 Permiten realizar cálculos matemáticos como suma, resta, multiplicación y división, mientras que los operadores relacionales se utilizan para comparar valores, generando resultados de tipo verdadero o falso.
-      .col.col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+      .col.col-lg-6.col-12.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             .col-lg-12(data-aos="flip-up")

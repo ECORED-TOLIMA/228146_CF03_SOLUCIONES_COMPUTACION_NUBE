@@ -10,7 +10,7 @@
       img(src='@/assets/curso/tema1/img01.png', alt='Imagen decorativa')
     p.mb-4(data-aos="fade-down") Los fundamentos de lógica y algoritmia proporcionan la base conceptual para desarrollar soluciones en programación, permitiendo estructurar procesos de forma ordenada, coherente y orientada a resolver problemas. A continuación, una breve diferenciación:
     .row.justify-content-center.mb-4
-      .col.col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+      .col.col-lg-6.col-12.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             .col-lg-12(data-aos="flip-up")
@@ -20,7 +20,7 @@
               h4 Algoritmo
               p.mb-0 Se entiende como una secuencia finita y lógica de pasos.
               br
-      .col.col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+      .col.col-lg-6.col-12.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             .col-lg-12(data-aos="flip-up")
@@ -30,7 +30,7 @@
               h4 Pensamiento algorítmico
               p.mb-0 Fortalece la capacidad de analizar, descomponer y modelar situaciones problemáticas para generar soluciones estructuradas y eficientes.
     .row.justify-content-center.mb-4
-      .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-auto.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema1/img04.svg', alt='Imagen decorativa')
       .col.col-lg-9.col-12.order-lg-2.order-2
@@ -100,7 +100,7 @@
           h4.text-center Generalidad
           p Propiedad que permite que un algoritmo pueda aplicarse a diferentes casos dentro de un mismo tipo de problema.
     .row.justify-content-center.align-items-center.mb-0
-      .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-auto.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema1/img14.svg', alt='Imagen decorativa')
       .col.col-lg-9.col-12.order-lg-2.order-2
@@ -219,15 +219,15 @@
     separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.5 Tipo de algoritmos
-    .row.justify-content-center.mb-4
-      .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0
+    .row.justify-content-center.mb-4.align-items-center
+      .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema1/img34.jpg', alt='Imagen decorativa')
-      .col.col-lg-7.col-12.order-lg-1.order-2
+      .col.col-lg-8.col-12.order-lg-1.order-2
         p.mb-4(data-aos="fade-down") Los tipos de algoritmos permiten clasificar las soluciones de acuerdo con su estructura, comportamiento y forma de ejecución, facilitando la selección de la estrategia más adecuada para resolver un problema. Esta clasificación contribuye a comprender cómo se organizan las instrucciones y cómo responde un algoritmo ante diferentes escenarios.
-        .cajon.cajon.C01.color-primario.p-4.mb-4
+        .cajon.cajon.C01.color-primario.p-4.mb-0
           p.mb-0(data-aos="fade-down") A diferencia de un enfoque único, los algoritmos pueden diseñarse bajo distintas formas según la lógica que se requiera implementar, lo que permite adaptarlos a problemas simples o complejos. Esta diversidad favorece la eficiencia, la claridad y la optimización de las soluciones en programación.
-        p.mb-0(data-aos="fade-down") Estos tipos se agrupan en diferentes categorías que orientan su aplicación, entre ellos:
+    p.mb-4(data-aos="fade-down") Estos tipos se agrupan en diferentes categorías que orientan su aplicación, entre ellos:
     .row.justify-content-center.mb-4.mb-lg-0
       .col-12.movil
         figure
@@ -273,12 +273,12 @@
           .row(numero="4" titulo="Algoritmos ineficientes")
             .col-12.mb-4.mb-md-0
               p.mb-0 Requieren mayor tiempo o recursos para ejecutarse, lo que puede afectar el rendimiento del sistema.
-          .row(numero="5" titulo="Algoritmos iterativos")
-            .col-12.mb-4.mb-md-0
-              p.mb-0 Resuelven problemas mediante la repetición de instrucciones hasta cumplir una condición específica.
-          .row(numero="6" titulo="Algoritmos recursivos")
-            .col-12.mb-4.mb-md-0
-              p.mb-0 Abordan problemas dividiéndolos en subproblemas similares, utilizando llamadas a sí mismos hasta llegar a un caso base.
+          //- .row(numero="5" titulo="Algoritmos iterativos")
+          //-   .col-12.mb-4.mb-md-0
+          //-     p.mb-0 Resuelven problemas mediante la repetición de instrucciones hasta cumplir una condición específica.
+          //- .row(numero="6" titulo="Algoritmos recursivos")
+          //-   .col-12.mb-4.mb-md-0
+          //-     p.mb-0 Abordan problemas dividiéndolos en subproblemas similares, utilizando llamadas a sí mismos hasta llegar a un caso base.
       .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema1/img38.png', alt='Imagen decorativa')
@@ -316,13 +316,12 @@
             p Permiten ejecutar varias operaciones simultáneamente, optimizando tiempos de procesamiento en sistemas avanzados.
     p.mb-4(data-aos="fade-down") Esta clasificación ampliada permite comprender que no existe un único tipo de algoritmo aplicable a todos los problemas, sino que la elección depende de factores como la complejidad, los recursos disponibles y los objetivos de la solución.
     .row.justify-content-center.align-items-center.mb-0
-      .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-auto.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema1/img42.svg', alt='Imagen decorativa')
       .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.C03.px-4.py-3
           p.mb-0(data-aos="fade-down") En el contexto formativo, el análisis de los tipos de algoritmos fortalece la capacidad para diseñar soluciones más eficientes, seleccionar estructuras adecuadas y comprender el impacto de sus decisiones en el desempeño del programa.
-
 </template>
 
 <script>

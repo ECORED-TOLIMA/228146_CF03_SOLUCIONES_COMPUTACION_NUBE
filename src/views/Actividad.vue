@@ -256,10 +256,10 @@ export default {
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: '+.', esCorrecta: false },
-            { id: 'b', texto: 'AND.', esCorrecta: false },
-            { id: 'c', texto: '>.', esCorrecta: true },
-            { id: 'd', texto: '=.', esCorrecta: false },
+            { id: 'a', texto: '+', esCorrecta: false },
+            { id: 'b', texto: 'AND', esCorrecta: false },
+            { id: 'c', texto: '>', esCorrecta: true },
+            { id: 'd', texto: '=', esCorrecta: false },
           ],
           mensaje_correcto: '¡Excelente trabajo! Es un operador relacional.',
           mensaje_incorrecto:

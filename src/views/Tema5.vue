@@ -14,7 +14,7 @@
       .bloque-texto-g__texto.p-4
         p La programación modular consiste en dividir un algoritmo en componentes o módulos independientes, cada uno con una función específica, lo que permite simplificar la complejidad del problema y facilitar su comprensión. Por su parte, las pruebas de algoritmos permiten validar la lógica de la solución, identificar errores y asegurar que los resultados obtenidos sean los esperados.
     .row.justify-content-center.mb-4
-      .col.col-lg-10.col-12
+      .col.col-lg-12.col-12
         p.mb-0(data-aos="fade-down") Para garantizar una adecuada aplicación de este enfoque, se deben seguir los siguientes pasos:
     .row.BG01.justify-content-center.align-items-center.px-3.mb-4(data-aos="flip-up")
       .col-lg-5.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
@@ -59,7 +59,7 @@
           p.mb-0(data-aos="fade-down") A través de la modularización, se busca dividir una solución en componentes funcionales que puedan desarrollarse, analizarse y probarse de forma individual, promoviendo la reutilización y el mantenimiento del código. Este enfoque no solo optimiza el proceso de desarrollo, sino que también favorece la escalabilidad de las soluciones.
         p.mb-0(data-aos="fade-down") A continuación, se presentan los elementos fundamentales de la programación modular:
     .row.justify-content-center.mb-4(data-aos="flip-up")
-      .col.col-12.col-lg-10
+      .col.col-12
         .titulo-sexto.color-acento-contenido
           h5 Tabla 4.
           span Elementos fundamentales de la programación modular
@@ -92,7 +92,7 @@
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Facilita la modificación y corrección del código sin afectar todo el sistema.
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Se corrige un módulo sin modificar el resto del sistema.
     .row.justify-content-center.align-items-center.mb-0
-      .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-auto.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema5/img05.svg', alt='Imagen decorativa')
       .col.col-lg-9.col-12.order-lg-2.order-2
@@ -196,7 +196,7 @@
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.3 Errores comunes en algoritmos
     .row.justify-content-center.align-items-center.mb-4
-      .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-1.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema5/img10.svg', alt='Imagen decorativa')
       .col.col-lg-11.col-12.order-lg-2.order-2
@@ -219,7 +219,7 @@
               img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo01(style="z-index:1")
             .p-2
-              h3.mb-0.ms-1 Clasificación de errores en algoritmos
+              h3.mb-0.ms-lg-1.ms-2 Clasificación de errores en algoritmos
         p.mb-4(data-aos="fade-down") A continuación, se presentan los errores más frecuentes:
         .row.justify-content-center.mb-0(data-aos="flip-up")
           .col.col-12
@@ -255,7 +255,7 @@
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") Mala organización del orden de instrucciones.
                     td(data-aos="fade-down")(style="background-color: #F0F8FF") Saltos incorrectos en el algoritmo.
     .row.justify-content-center.align-items-center.mb-4
-      .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-auto.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema5/img12.svg', alt='Imagen decorativa')
       .col.col-lg-9.col-12.order-lg-2.order-2
@@ -351,9 +351,9 @@
     p.mb-4(data-aos="fade-down") Constituyen un elemento esencial en la programación modular, ya que permiten establecer la comunicación entre los diferentes componentes de un algoritmo. Estos parámetros definen qué información recibe un módulo para su ejecución y qué resultados genera una vez finaliza su procesamiento, garantizando coherencia en el flujo de datos dentro del sistema.
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12
-        .cajon.cajon.C01.color-primario.p-4.mb-4
+        .cajon.cajon.C01.color-primario.p-4.mb-0
           p.mb-0(data-aos="fade-down") Una adecuada definición de los parámetros permite que los módulos funcionen de manera independiente, facilitando su reutilización y evitando dependencias innecesarias. Además, contribuye a que el intercambio de información sea claro, controlado y alineado con la funcionalidad de cada módulo.
-        p.mb-0(data-aos="fade-down") Para garantizar un uso correcto de los parámetros, es importante considerar los siguientes criterios:
+    p.mb-4(data-aos="fade-down") Para garantizar un uso correcto de los parámetros, es importante considerar los siguientes criterios:
     .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
       SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
         .tarjeta.tarjeta--C02.p-4
@@ -387,7 +387,7 @@
           h4.text-center Independencia del módulo
           p Los parámetros permiten que cada módulo funcione sin depender directamente de otros, favoreciendo la modularidad.
     .row.justify-content-center.mb-0
-      .col.col-lg-10.col-12
+      .col.col-12
         p.mb-0(data-aos="fade-down") Una vez definidos los parámetros, es importante establecer cómo se gestionan dentro del programa, considerando el siguiente proceso:
     .row
       .col-12
